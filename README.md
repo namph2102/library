@@ -71,7 +71,6 @@ const handleSerach = () => {
   console.log("Delay 200ms");
 };
 Debounced(handleSerach, 200); 
-[Debounced Demo][https://blog.zecky.online/debounce-toi-uu-hoa-cong-cu-tim-kiem-trong-reactjs]
 ```
-
+[Debounced Demo][https://blog.zecky.online/debounce-toi-uu-hoa-cong-cu-tim-kiem-trong-reactjs]
 And more read...."# library" 
