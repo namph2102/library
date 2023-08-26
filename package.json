@@ -1,8 +1,8 @@
 {
   "name": "react-swisskit",
   "type": "commonjs",
-  "version": "1.0.0",
-  "description": "Tổng hợp cách tool tiện ích thuận lợi cho việc phát triển dự án về Reactj, NextJS ",
+  "version": "1.0.1",
+  "description": "Tổng hợp cách tool tiện ích thuận lợi cho việc phát triển dự án về ReactJS, NextJS ",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
