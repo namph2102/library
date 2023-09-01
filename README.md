@@ -23,7 +23,7 @@ react-swisskit is a collection of tools, validators to solve problems in Front E
 
 #### Sort
 ```
-import handleSort from "react-swisskit";
+import {handleSort} from "react-swisskit";
 const list = [8, 9, 8, 5, 7, 4, 5, 2, 4, 4, 5, 4, 7];
 handleSort(list);
 console.log(list);

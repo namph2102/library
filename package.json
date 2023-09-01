@@ -1,7 +1,7 @@
 {
   "name": "react-swisskit",
   "type": "commonjs",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Tổng hợp cách tool tiện ích thuận lợi cho việc phát triển dự án về ReactJS, NextJS ",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -30,7 +30,6 @@
   "dependencies": {
     "clsx": "^2.0.0",
     "moment": "^2.29.4",
-    "react-toastify": "^9.1.3",
     "slugify": "^1.6.6",
     "tailwind-merge": "^1.14.0"
   }

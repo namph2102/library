@@ -170,7 +170,7 @@ export class Validator {
    * @param url  Url is Attribute's img src
    * @returns promise boolean
    */
-  static isImageExtend(url: string) {
+  static isImage(url: string) {
     return new Promise((resolve, reject) => {
       const img = new Image();
       img.src = url;
