@@ -24,5 +24,6 @@ export {
   removeVietnameseTones,
   timeFormatComment,
 };
+
 import * as Utils from "./package/text.lib";
 export default Utils;

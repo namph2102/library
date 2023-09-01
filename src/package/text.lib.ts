@@ -35,12 +35,11 @@ export function removeVietnameseTones(str: string) {
 }
 export function capitalizeText(str: string) {
   if (!str) return str;
-  return (str.charAt(0).toUpperCase() + str.slice(1)).replace(
-    /(^|\s)\w/g,
-    function (match) {
+  return (str.charAt(0).toUpperCase() + str.slice(1))
+    .replace(/(^|\s)\w/g, function (match) {
       return match.toUpperCase();
-    }
-  );
+    })
+    .trim();
 }
 export function coverSlug(str: string) {
   return removeVietnameseTones(str)

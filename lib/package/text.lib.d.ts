@@ -48,7 +48,7 @@ export declare class Validator {
      * @param url  Url is Attribute's img src
      * @returns promise boolean
      */
-    static isImageExtend(url: string): Promise<unknown>;
+    static isImage(url: string): Promise<unknown>;
 }
 /**
  * cn helps to shorthand the class of taliwincss
