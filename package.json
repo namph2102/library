@@ -1,13 +1,14 @@
 {
   "name": "react-swisskit",
   "type": "commonjs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Tổng hợp cách tool tiện ích thuận lợi cho việc phát triển dự án về ReactJS, NextJS ",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib"
   ],
+  "repository": "https://github.com/namph2102/library",
   "prepare": "npm run build",
   "scripts": {
     "start": "tsc --watch",
@@ -20,7 +21,7 @@
     "Logger",
     "customer class tailwindcss"
   ],
-  "author": "Phạm Hoài Nam",
+  "author": "Phạm Hoài Nam <namph2102@gmail.com>",
   "license": "ISC",
   "include": [
     "src"
