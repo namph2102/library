@@ -9,18 +9,17 @@ react-swisskit is a collection of tools, validators to solve problems in Front E
 
 ## Features
 
-- handleSort
-- createLogger
-- capitalizeText
-- coverSlug
-- timeFormatComment
-- Validator
-- Debounced
-- cn (Giúp tối ưu class trong taidwindcss)
+- [handleSort](#handleSort)
+- [Validator](#Validator)
+- [Debounced](#Debounced)
+- [cn](#cn)
+- [coverSlug](#coverSlug)
+- [capitalizeText](#capitalizeText)
+- [removeVietnameseTones](#removeVietnameseTones)
 
 ### Usage
 
-#### Sort
+#### handleSort
 
 ```
 import {handleSort} from "react-swisskit";
@@ -78,6 +77,8 @@ Debounced(handleSerach, 200);
 And more read...."# library"
 
 #### cn
+
+- cn have format class in tailwindcss
 
 ```
 import { cn } from "react-swisskit";
